@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Responsive App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="img.ico">
+</head>
+<body>
+    <div class="wrapper addlist-wrapper">
+
+        <header class="header">
+
+            <div class="left-title">
+                <span class="tasks">Tasks</span>
+                <span class="lists">Lists</span>
+            </div>
+
+            <div class="right-title">
+
+                <div class="add logo">
+                    <a href="addlist.html">    
+                        <span class="material-icons md-48 icon">add_circle</span>
+                    </a>
+                </div>
+
+                <div class="add">
+                    <span class="add-list">
+                        <a href="addlist.html" class="logo-text">Add List</a>
+                    </span>
+                </div>
+                
+            </div>
+
+        </header>
+        
+        <div class="box-container">
+
+            <div class="boxes box1">
+                <div class="head-box">
+                    <a href="trip.html" class="list-head">Trip to Paris</a>
+                    <a href="trip.html" class="list-head-mobile">Trip to Paris</a>
+                </div>
+                <hr class="hr">
+                <div class="completed">Completed Task</div>
+                <form action="" class="pending">
+                    <input type="checkbox" class="checkbox" id="pTask">
+                    <label for="pTask">Pending Task</label>
+                </form>    
+            </div>
+
+            <div class="boxes box2">
+                <div class="head-box">
+                    <a href="todo.html" class="list-head">My Todo List </a>
+                    <a href="todo.html" class="list-head-mobile">My Todo List 2</a>
+                </div>
+                <hr class="hr">
+                <div class="completed">Completed Task</div>
+                <form action="" class="pending">
+                    <input type="checkbox" class="checkbox" id="pTask">
+                    <label for="pTask">Pending Task</label>
+                </form> 
+            </div>
+
+            <div class="boxes box3">
+                <div class="head-box">
+                    <a href="todo.html" class="list-head">My Todo List</a>
+                    <a href="todo.html" class="list-head-mobile">My Todo List 3</a>
+                </div>
+                <hr class="hr">
+                <div class="completed">Completed Task</div>
+                <form action="" class="pending">
+                    <input type="checkbox" class="checkbox" id="pTask">
+                    <label for="pTask">Pending Task</label>
+                </form> 
+            </div>
+            <div class="boxes box-mobile">
+                <div class="head-box">
+                    <a href="todo.html" class="list-head-mobile">My Todo List 4</a>
+                </div>
+            </div>
+            <div class="boxes box-mobile">
+                <div class="head-box">
+                    <a href="todo.html" class="list-head-mobile">My Todo List 5</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="new-list">
+        <form action="">
+            <label for="new">Add New List</label> <br>
+            <input class="input list" type="text" name="new" id="new"> <br>
+            <a href="index.html" class="add-link"><input class="input btn" type="button" value="ADD"></a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1176 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    height: 400px;
+    width: 60vw;
+    margin: 8% 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.right-title {
+    position: relative;
+    top: 25px;
+}
+
+.tasks {
+    font-weight: bolder;
+    color: rgb(66, 56, 56);
+    font-size: 4vw;
+    margin-right: 5px;
+}
+
+.lists {
+    font-weight: lighter;
+    font-size: 4vw;
+    color: grey
+}
+
+.add {
+    display: inline-block;
+}
+
+.material-icons.md-48 {
+    font-size: 3.2vw;
+}
+
+.icon {
+    color: tomato;
+    
+}
+
+.logo-text {
+    color: grey;
+    font-size: 2.8vw;
+    font-weight: 300;
+    margin-left: 8px;
+    position: relative;
+    bottom: 8px;
+    text-decoration: none;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.boxes {
+    border: 1px solid tomato;
+    height: 23vw;
+    width: 16vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #ebdede;
+    margin-top: 20px;
+}
+
+.box1 {
+    margin-left: 10px;
+}
+
+.list-head {
+    font-size: 2vw;
+    font-weight: lighter;
+    color: tomato;
+    text-decoration: none;
+}
+
+.list-head-mobile, .box-mobile {
+    display: none;
+}
+
+.head-box {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.hr {
+    border: none;
+    border-bottom: 2px solid grey;
+    margin-left: 3vw;
+}
+
+.completed {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6vw;
+    color: tomato;
+    text-decoration: line-through;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.pending {
+    font-size: 1.6vw;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.checkbox {
+    transform: scale(1.5);
+}
+
+/* trip.html */
+
+.trip-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.paris {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.paris-line {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: grey;
+}
+
+.back {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.icon-link > .material-icons.md-48 {
+    font-size: 48px;
+}
+
+.backlogo-text {
+    color: grey;
+    font-size: 42px;
+    font-weight: 300;
+    margin-left: 8px;
+    position: relative;
+    bottom: 8px;
+    text-decoration: none;
+}
+
+.back-text {
+    color: grey;
+    font-size: 2rem;
+    position: relative;
+    top: 2px;
+}
+
+.trip-box {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.trip-font {
+    font-size: 24px;
+}
+
+.triphead-box {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.trip-head {
+    font-size: 36px;
+    font-weight: 400;
+    font-weight: lighter;
+    color: tomato;
+    text-decoration: none;
+}
+
+.trip-completed {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: tomato;
+    text-decoration: line-through;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.trip-pending {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.trip-checkbox {
+    transform: scale(1.5);
+}
+
+.hr-todo {
+    margin-left: 110px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.trip-add-icon {
+    position: relative;
+    left: 160px;
+    top: 150px;
+}
+
+/* addlist.html */
+
+.addlist-wrapper, .additem-wrapper {
+    filter: blur(5px);
+}
+
+.new-list {
+    color: tomato;
+    font-size: 2rem;
+    width: 400px;
+    height: 210px;
+    position: absolute;
+    top: 220px;
+    left: 555px;
+    padding: 15px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 2;
+    box-shadow: 8px 8px 8px lightgray;
+}
+
+.list {
+    border: 1px solid tomato;
+    box-shadow: 2px 2px 2px lightgray;
+    transform: scale(2);
+}
+
+.input {
+    border-radius: 3px;
+}
+
+.btn {
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 20px;
+    transform: scale(1.5);
+    padding: 8px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1120px) {
+    
+    .wrapper {
+        height: 400px;
+        width: 65vw;
+        margin: 8% 20%;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    }
+    
+    .right-title {
+        position: relative;
+        top: 25px;
+    }
+    
+    .tasks {
+        font-weight: bolder;
+        color: rgb(66, 56, 56);
+        font-size: 4vw;
+        margin-right: 5px;
+    }
+    
+    .lists {
+        font-weight: lighter;
+        font-size: 4vw;
+        color: grey
+    }
+    
+    .add {
+        display: inline-block;
+    }
+    
+    .material-icons.md-48 {
+        font-size: 3.2vw;
+    }
+    
+    .icon {
+        color: tomato;
+        
+    }
+    
+    .logo-text {
+        color: grey;
+        font-size: 2.8vw;
+        font-weight: 300;
+        margin-left: 8px;
+        position: relative;
+        bottom: 8px;
+        text-decoration: none;
+    }
+    
+    .box-container {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .boxes {
+        border: 1px solid tomato;
+        height: 23vw;
+        width: 16vw;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #ebdede;
+        margin-top: 20px;
+    }
+    
+    .box1 {
+        margin-left: 10px;
+    }
+    
+    .list-head {
+        font-size: 1.8vw;
+        font-weight: lighter;
+        color: tomato;
+        text-decoration: none;
+    }
+    
+    .list-head-mobile, .box-mobile {
+        display: none;
+    }
+    
+    .head-box {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .hr {
+        border: none;
+        border-bottom: 2px solid grey;
+        margin-left: 3.2vw;
+    }
+    
+    .completed {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4vw;
+        color: tomato;
+        text-decoration: line-through;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .pending {
+        font-size: 1.4vw;
+        margin-top: 8px;
+        margin-right: 20px;
+    }
+    
+    .checkbox {
+        transform: scale(1.1);
+        position: relative;
+        top: 2px;
+    }
+
+    /* trip.html */
+
+    .trip-container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .paris {
+        font-size: 60px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .paris-line {
+        text-decoration: line-through;
+        text-decoration-thickness: 2px;
+        text-decoration-color: grey;
+    }
+    
+    .back {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    
+    .icon-link > .material-icons.md-48 {
+        font-size: 48px;
+    }
+    
+    .backlogo-text {
+        color: grey;
+        font-size: 42px;
+        font-weight: 300;
+        margin-left: 8px;
+        position: relative;
+        bottom: 8px;
+        text-decoration: none;
+    }
+    
+    .back-text {
+        color: grey;
+        font-size: 2rem;
+        position: relative;
+        top: 2px;
+    }
+    
+    .trip-box {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .trip-font {
+        font-size: 24px;
+    }
+    
+    .triphead-box {
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    
+    .trip-head {
+        font-size: 36px;
+        font-weight: 400;
+        font-weight: lighter;
+        color: tomato;
+        text-decoration: none;
+    }
+    
+    .trip-completed {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color: tomato;
+        text-decoration: line-through;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    .trip-pending {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+    .trip-checkbox {
+        transform: scale(1.5);
+    }
+    
+    .hr-todo {
+        margin-left: 110px;
+        border: none;
+        border-bottom: 2px solid grey;
+    }
+    
+    .trip-add-icon {
+        position: relative;
+        left: 160px;
+        top: 150px;
+    }
+
+    /* addlist.html */
+
+    .addlist-wrapper, .additem-wrapper {
+        filter: blur(5px);
+    }
+    
+    .new-list {
+        color: tomato;
+        font-size: 2rem;
+        width: 400px;
+        height: 210px;
+        position: absolute;
+        top: 220px;
+        left: 200px;
+        padding: 15px;
+        border: 2px solid tomato;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        line-height: 2;
+        box-shadow: 8px 8px 8px lightgray;
+    }
+    
+    .list {
+        border: 1px solid tomato;
+        box-shadow: 2px 2px 2px lightgray;
+        transform: scale(2);
+    }
+    
+    .input {
+        border-radius: 3px;
+    }
+    
+    .btn {
+        color: white;
+        background-color: tomato;
+        border: none;
+        border-radius: 20px;
+        transform: scale(1.5);
+        padding: 8px 20px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+}
+
+/* Wide Mobile */
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+    
+    .wrapper {
+        height: 100%;
+        width: 90%;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+
+    .header {
+        width: 96%;
+        margin-top: 8%;
+    }
+
+    .left-title {
+        position: relative;
+        bottom: 25px;
+    }
+
+    .right-title {
+        width: 48px;
+        height: 48px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .tasks {
+        font-size: 12vw;
+    }
+
+    .lists {
+        font-size: 12vw;
+    }
+
+    .material-icons.md-48 {
+        font-size: 12vw;
+        position: relative;
+        bottom: 24px;
+        right: 20px;
+    }
+
+    .add-list {
+        display: none;
+    }
+
+    .box-container {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxes {
+        width: 96%;
+        margin-left: 0%;
+        /* margin-bottom: 10px; */
+        height: 20vw;
+        border: 1px solid rgb(255, 206, 197);
+    }
+
+    .head-box {
+        position: relative;
+        /* bottom: 5px; */
+        left: 10px;
+        text-align: left;
+    }
+
+    .list-head, .hr, .completed, .pending {
+        display: none;
+    }
+
+    .list-head-mobile {
+        display: inline;
+        font-size: 6vw;
+        color: rgb(156, 156, 156);
+        font-weight: lighter;
+        text-decoration: none;
+    }
+
+    .box-mobile {
+        display: inline-block;
+    }
+
+    /* trip.html */
+
+    .paris-line, .back-text {
+        display: none;
+    }
+
+    .paris {
+        font-size: 42px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+
+    .icon-link {
+        position: relative;
+        bottom: 50px;
+        right: 170px;
+    }
+
+    .trip-head {
+        font-size: 40px;
+        font-weight: 400;
+        font-weight: lighter;
+        color: tomato;
+        text-decoration: none;
+    }
+
+    .trip-box {
+        width: 80vw;
+        height: 25rem;
+        margin-bottom: 30px;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .trip-completed {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: tomato;
+        text-decoration: line-through;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    .trip-pending {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+    .trip-checkbox {
+        transform: scale(1.5);
+    }
+    
+    .hr-todo {
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid grey;
+    }
+    
+    .trip-add-icon {
+        position: relative;
+        left: 6.2em;
+        top: 3.6em;
+    }
+
+    /* addlist.html */
+
+    .addlist-wrapper, .additem-wrapper {
+        filter: blur(5px);
+    }
+    
+    .new-list {
+        color: tomato;
+        font-size: 2rem;
+        width: 300px;
+        height: 160px;
+        position: absolute;
+        top: 200px;
+        left: 70px;
+        padding: 15px;
+        border: 2px solid tomato;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        line-height: 1.5;
+        box-shadow: 8px 8px 8px lightgray;
+    }
+    
+    .list {
+        border: 1px solid tomato;
+        box-shadow: 2px 2px 2px lightgray;
+        transform: scale(1.5);
+    }
+    
+    .input {
+        border-radius: 3px;
+    }
+    
+    .btn {
+        color: white;
+        background-color: tomato;
+        border: none;
+        border-radius: 20px;
+        transform: scale(1.5);
+        padding: 4px 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
+/* trip responsive */
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
+    .trip-add-icon {
+        position: relative;
+        left: 6.5em;
+        top: 3.6em;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 550px) {
+    .trip-add-icon {
+        position: relative;
+        left: 6.8em;
+        top: 3.6em;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 600px) {
+    .trip-add-icon {
+        position: relative;
+        left: 7.2em;
+        top: 3.6em;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 650px) {
+    .trip-add-icon {
+        position: relative;
+        left: 7.5em;
+        top: 3.6em;
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 700px) {
+    .trip-add-icon {
+        position: relative;
+        left: 8em;
+        top: 3.6em;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 768px) {
+    .trip-add-icon {
+        position: relative;
+        left: 8.5em;
+        top: 3.6em;
+    }
+}
+
+
+/* Mobile  */
+
+@media screen and (min-width: 320px) and (max-width: 420px){
+    
+    .wrapper {
+        height: 100%;
+        width: 90%;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+
+    .header {
+        width: 96%;
+        margin-top: 8%;
+    }
+
+    .right-title {
+        width: 48px;
+        height: 48px;
+        position: relative;
+        left: 10px;
+    }
+
+    .tasks {
+        font-size: 12vw;
+    }
+
+    .lists {
+        font-size: 12vw;
+    }
+
+    .material-icons.md-48 {
+        font-size: 12vw;
+        position: relative;
+        bottom: 12px;
+    }
+
+    .add-list {
+        display: none;
+    }
+
+    .box-container {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxes {
+        width: 96%;
+        margin-left: 0%;
+        /* margin-bottom: 10px; */
+        height: 20vw;
+        border: 1px solid rgb(255, 206, 197);
+    }
+
+    .head-box {
+        position: relative;
+        bottom: 14px;
+        left: 10px;
+        text-align: left;
+    }
+
+    .list-head, .hr, .completed, .pending {
+        display: none;
+    }
+
+    .list-head-mobile {
+        display: inline;
+        font-size: 7vw;
+        color: rgb(156, 156, 156);
+        font-weight: lighter;
+        text-decoration: none;
+    }
+
+    .box-mobile {
+        display: inline-block;
+    }
+
+    /* trip.html */
+
+    .paris-line, .back-text {
+        display: none;
+    }
+
+    .paris {
+        font-size: 36px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+
+    .icon-link {
+        position: relative;
+        bottom: 60px;
+        right: 135px;
+    }
+
+    .trip-head {
+        font-size: 36px;
+        font-weight: 400;
+        font-weight: lighter;
+        color: tomato;
+        text-decoration: none;
+    }
+
+    .trip-box {
+        width: 80vw;
+        height: 25rem;
+        margin-bottom: 30px;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .trip-completed {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color: tomato;
+        text-decoration: line-through;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    .trip-pending {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+    .trip-checkbox {
+        transform: scale(1.5);
+    }
+    
+    .hr-todo {
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid grey;
+    }
+    
+    .trip-add-icon {
+        position: fixed;
+        left: 5em;
+        top: 4.2em;
+    }
+
+     /* addlist.html */
+
+     .addlist-wrapper, .additem-wrapper {
+        filter: blur(5px);
+    }
+    
+    .new-list {
+        color: tomato;
+        font-size: 1.6rem;
+        width: 270px;
+        height: 140px;
+        position: absolute;
+        top: 220px;
+        left: 30px;
+        padding: 15px;
+        border: 2px solid tomato;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        line-height: 1.5;
+        box-shadow: 8px 8px 8px lightgray;
+    }
+    
+    .list {
+        border: 1px solid tomato;
+        box-shadow: 2px 2px 2px lightgray;
+        transform: scale(1.4);
+    }
+    
+    .input {
+        border-radius: 3px;
+    }
+    
+    .btn {
+        color: white;
+        background-color: tomato;
+        border: none;
+        border-radius: 20px;
+        transform: scale(1.4);
+        padding: 4px 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
+/* Narrow Mobile */
+
+@media screen and (max-width: 320px){
+    .wrapper {
+        height: 100%;
+        width: 90%;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+
+    .header {
+        width: 96%;
+        margin-top: 30%;
+    }
+
+    .right-title {
+        width: 48px;
+        height: 48px;
+        position: relative;
+        left: 10px;
+    }
+
+    .tasks {
+        font-size: 12vw;
+    }
+
+    .lists {
+        font-size: 12vw;
+    }
+
+    .material-icons.md-48 {
+        font-size: 12vw;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .add-list {
+        display: none;
+    }
+
+    .box-container {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxes {
+        width: 96%;
+        margin-left: 0%;
+        /* margin-bottom: 10px; */
+        height: 20vw;
+        border: 1px solid rgb(255, 206, 197);
+    }
+
+    .head-box {
+        position: relative;
+        bottom: 14px;
+        left: 10px;
+        text-align: left;
+    }
+
+    .list-head, .hr, .completed, .pending {
+        display: none;
+    }
+
+    .list-head-mobile {
+        display: inline;
+        font-size: 7vw;
+        color: rgb(156, 156, 156);
+        font-weight: lighter;
+        text-decoration: none;
+    }
+
+    .box-mobile {
+        display: inline-block;
+    }
+
+    /* trip.html */
+
+    .paris-line, .back-text {
+        display: none;
+    }
+
+    .paris {
+        font-size: 32px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        left: 25px;
+        top: 30px;
+    }
+
+    .icon-link {
+        position: relative;
+        bottom: 58px;
+        right: 100px;
+    }
+
+    .trip-head {
+        font-size: 32px;
+        font-weight: 400;
+        font-weight: lighter;
+        color: tomato;
+        text-decoration: none;
+    }
+
+    .trip-box {
+        width: 80vw;
+        height: 25rem;
+        margin-bottom: 30px;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .trip-completed {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: tomato;
+        text-decoration: line-through;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    .trip-pending {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+    .trip-checkbox {
+        transform: scale(1.5);
+    }
+    
+    .hr-todo {
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid grey;
+    }
+    
+    .trip-add-icon {
+        position: fixed;
+        left: 3.6em;
+        top: 4.5em;
+    }
+
+     /* addlist.html */
+
+     .addlist-wrapper, .additem-wrapper {
+        filter: blur(5px);
+    }
+    
+    .new-list {
+        color: tomato;
+        font-size: 1.2rem;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        padding: 15px;
+        border: 2px solid tomato;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        line-height: 1.2;
+        box-shadow: 8px 8px 8px lightgray;
+    }
+    
+    .list {
+        border: 1px solid tomato;
+        box-shadow: 2px 2px 2px lightgray;
+        transform: scale(1);
+    }
+    
+    .input {
+        border-radius: 3px;
+    }
+    
+    .btn {
+        color: white;
+        background-color: tomato;
+        border: none;
+        border-radius: 20px;
+        transform: scale(1);
+        padding: 4px 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
